@@ -23,7 +23,7 @@ from __future__ import (absolute_import, division, print_function,
 
 import argparse
 
-import backtrader as bt
+import horytr as bt
 
 
 class St(bt.Strategy):

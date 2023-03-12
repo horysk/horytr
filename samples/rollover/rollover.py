@@ -27,7 +27,7 @@ import bisect
 import calendar
 import datetime
 
-import backtrader as bt
+import horytr as bt
 
 
 class TheStrategy(bt.Strategy):

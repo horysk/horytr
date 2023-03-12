@@ -24,11 +24,11 @@ from __future__ import (absolute_import, division, print_function,
 import collections
 import datetime
 
-import backtrader as bt
-from backtrader.comminfo import CommInfoBase
-from backtrader.order import Order, BuyOrder, SellOrder
-from backtrader.position import Position
-from backtrader.utils.py3 import string_types, integer_types
+import horytr as bt
+from  horytr.comminfo import CommInfoBase
+from  horytr.order import Order, BuyOrder, SellOrder
+from  horytr.position import Position
+from  horytr.utils.py3 import string_types, integer_types
 
 __all__ = ['BackBroker', 'BrokerBack']
 

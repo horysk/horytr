@@ -29,7 +29,7 @@ import itertools
 from ..utils.py3 import (urlopen, urlquote, ProxyHandler, build_opener,
                          install_opener)
 
-import backtrader as bt
+import horytr as bt
 from .. import feed
 from ..utils import date2num
 

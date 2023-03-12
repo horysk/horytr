@@ -21,8 +21,8 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-from backtrader import date2num
-import backtrader.feed as feed
+from  horytr import date2num
+import horytr.feed as feed
 
 
 class BlazeData(feed.DataBase):

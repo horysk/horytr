@@ -25,14 +25,14 @@ import collections
 from datetime import date, datetime, timedelta
 import threading
 
-from backtrader import BrokerBase, Order, BuyOrder, SellOrder
-from backtrader.comminfo import CommInfoBase
-from backtrader.feed import DataBase
-from backtrader.metabase import MetaParams
-from backtrader.position import Position
-from backtrader.utils.py3 import with_metaclass
+from  horytr import BrokerBase, Order, BuyOrder, SellOrder
+from  horytr.comminfo import CommInfoBase
+from  horytr.feed import DataBase
+from  horytr.metabase import MetaParams
+from  horytr.position import Position
+from  horytr.utils.py3 import with_metaclass
 
-from backtrader.stores import vcstore
+from  horytr.stores import vcstore
 
 
 class VCCommInfo(CommInfoBase):

@@ -26,7 +26,7 @@ import collections
 import itertools
 import multiprocessing
 
-import backtrader as bt
+import horytr as bt
 from .utils.py3 import (map, range, zip, with_metaclass, string_types,
                         integer_types)
 

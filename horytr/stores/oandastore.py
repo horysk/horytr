@@ -30,10 +30,10 @@ import threading
 import oandapy
 import requests  # oandapy depdendency
 
-import backtrader as bt
-from backtrader.metabase import MetaParams
-from backtrader.utils.py3 import queue, with_metaclass
-from backtrader.utils import AutoDict
+import horytr as bt
+from  horytr.metabase import MetaParams
+from  horytr.utils.py3 import queue, with_metaclass
+from  horytr.utils import AutoDict
 
 
 # Extend the exceptions to support extra cases

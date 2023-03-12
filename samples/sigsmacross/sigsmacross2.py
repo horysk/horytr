@@ -19,7 +19,7 @@
 #
 ###############################################################################
 from datetime import datetime
-import backtrader as bt
+import horytr as bt
 
 
 class SmaCross(bt.SignalStrategy):

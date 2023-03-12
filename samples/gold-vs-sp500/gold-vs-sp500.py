@@ -29,7 +29,7 @@ import datetime
 
 import scipy.stats
 
-import backtrader as bt
+import horytr as bt
 
 
 class PearsonR(bt.ind.PeriodN):

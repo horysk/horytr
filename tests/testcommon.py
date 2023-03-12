@@ -29,9 +29,9 @@ import sys
 # append module root directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import backtrader as bt
-import backtrader.utils.flushfile
-from backtrader.metabase import ParamsBase
+import horytr as bt
+import horytr.utils.flushfile
+from  horytr.metabase import ParamsBase
 
 
 modpath = os.path.dirname(os.path.abspath(__file__))

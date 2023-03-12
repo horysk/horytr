@@ -24,8 +24,8 @@ from __future__ import (absolute_import, division, print_function,
 
 import collections
 
-import backtrader as bt
-from backtrader.utils.py3 import items, iteritems
+import horytr as bt
+from  horytr.utils.py3 import items, iteritems
 
 from . import TimeReturn, PositionsValue, Transactions, GrossLeverage
 

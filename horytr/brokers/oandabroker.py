@@ -26,16 +26,16 @@ from copy import copy
 from datetime import date, datetime, timedelta
 import threading
 
-from backtrader.feed import DataBase
-from backtrader import (TimeFrame, num2date, date2num, BrokerBase,
+from  horytr.feed import DataBase
+from  horytr import (TimeFrame, num2date, date2num, BrokerBase,
                         Order, BuyOrder, SellOrder, OrderBase, OrderData)
-from backtrader.utils.py3 import bytes, with_metaclass, MAXFLOAT
-from backtrader.metabase import MetaParams
-from backtrader.comminfo import CommInfoBase
-from backtrader.position import Position
-from backtrader.stores import oandastore
-from backtrader.utils import AutoDict, AutoOrderedDict
-from backtrader.comminfo import CommInfoBase
+from  horytr.utils.py3 import bytes, with_metaclass, MAXFLOAT
+from  horytr.metabase import MetaParams
+from  horytr.comminfo import CommInfoBase
+from  horytr.position import Position
+from  horytr.stores import oandastore
+from  horytr.utils import AutoDict, AutoOrderedDict
+from  horytr.comminfo import CommInfoBase
 
 
 class OandaCommInfo(CommInfoBase):

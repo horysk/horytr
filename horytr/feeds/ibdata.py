@@ -23,13 +23,13 @@ from __future__ import (absolute_import, division, print_function,
 
 import datetime
 
-import backtrader as bt
-from backtrader.feed import DataBase
-from backtrader import TimeFrame, date2num, num2date
-from backtrader.utils.py3 import (integer_types, queue, string_types,
+import horytr as bt
+from  horytr.feed import DataBase
+from  horytr import TimeFrame, date2num, num2date
+from  horytr.utils.py3 import (integer_types, queue, string_types,
                                   with_metaclass)
-from backtrader.metabase import MetaParams
-from backtrader.stores import ibstore
+from  horytr.metabase import MetaParams
+from  horytr.stores import ibstore
 
 
 class MetaIBData(DataBase.__class__):

@@ -30,16 +30,16 @@ import uuid
 import ib.ext.Order
 import ib.opt as ibopt
 
-from backtrader.feed import DataBase
-from backtrader import (TimeFrame, num2date, date2num, BrokerBase,
+from  horytr.feed import DataBase
+from  horytr import (TimeFrame, num2date, date2num, BrokerBase,
                         Order, OrderBase, OrderData)
-from backtrader.utils.py3 import bytes, bstr, with_metaclass, queue, MAXFLOAT
-from backtrader.metabase import MetaParams
-from backtrader.comminfo import CommInfoBase
-from backtrader.position import Position
-from backtrader.stores import ibstore
-from backtrader.utils import AutoDict, AutoOrderedDict
-from backtrader.comminfo import CommInfoBase
+from  horytr.utils.py3 import bytes, bstr, with_metaclass, queue, MAXFLOAT
+from  horytr.metabase import MetaParams
+from  horytr.comminfo import CommInfoBase
+from  horytr.position import Position
+from  horytr.stores import ibstore
+from  horytr.utils import AutoDict, AutoOrderedDict
+from  horytr.comminfo import CommInfoBase
 
 bytes = bstr  # py2/3 need for ibpy
 

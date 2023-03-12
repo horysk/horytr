@@ -23,8 +23,8 @@ from __future__ import (absolute_import, division, print_function,
 
 from collections import OrderedDict
 
-from backtrader.utils.py3 import range
-from backtrader import Analyzer
+from  horytr.utils.py3 import range
+from  horytr import Analyzer
 
 
 class AnnualReturn(Analyzer):

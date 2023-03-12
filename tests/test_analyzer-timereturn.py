@@ -29,9 +29,9 @@ except:
 
 import testcommon
 
-import backtrader as bt
-import backtrader.indicators as btind
-from backtrader.utils.py3 import PY2
+import horytr as bt
+import horytr.indicators as btind
+from  horytr.utils.py3 import PY2
 
 
 class TestStrategy(bt.Strategy):

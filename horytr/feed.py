@@ -27,12 +27,12 @@ import inspect
 import io
 import os.path
 
-import backtrader as bt
-from backtrader import (date2num, num2date, time2num, TimeFrame, dataseries,
+import horytr as bt
+from  horytr import (date2num, num2date, time2num, TimeFrame, dataseries,
                         metabase)
 
-from backtrader.utils.py3 import with_metaclass, zip, range, string_types
-from backtrader.utils import tzparse
+from  horytr.utils.py3 import with_metaclass, zip, range, string_types
+from  horytr.utils import tzparse
 from .dataseries import SimpleFilterWrapper
 from .resamplerfilter import Resampler, Replayer
 from .tradingcal import PandasMarketCalendar

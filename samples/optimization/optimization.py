@@ -25,11 +25,11 @@ import argparse
 import datetime
 import time
 
-from backtrader.utils.py3 import range
+from  horytr.utils.py3 import range
 
-import backtrader as bt
-import backtrader.indicators as btind
-import backtrader.feeds as btfeeds
+import horytr as bt
+import horytr.indicators as btind
+import horytr.feeds as btfeeds
 
 
 class OptimizeStrategy(bt.Strategy):

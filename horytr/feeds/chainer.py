@@ -24,8 +24,8 @@ from __future__ import (absolute_import, division, print_function,
 
 from datetime import datetime
 
-import backtrader as bt
-from backtrader.utils.py3 import range
+import horytr as bt
+from  horytr.utils.py3 import range
 
 
 class MetaChainer(bt.DataBase.__class__):

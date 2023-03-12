@@ -23,9 +23,9 @@ from __future__ import (absolute_import, division, print_function,
 
 import sys
 
-from backtrader import Analyzer
-from backtrader.utils import AutoOrderedDict, AutoDict
-from backtrader.utils.py3 import MAXINT
+from  horytr import Analyzer
+from  horytr.utils import AutoOrderedDict, AutoDict
+from  horytr.utils.py3 import MAXINT
 
 
 class TradeAnalyzer(Analyzer):

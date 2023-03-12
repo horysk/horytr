@@ -30,12 +30,12 @@ import time as _timemod
 
 import ctypes
 
-from backtrader import TimeFrame, Position
-from backtrader.feed import DataBase
-from backtrader.metabase import MetaParams
-from backtrader.utils.py3 import (MAXINT, range, queue, string_types,
+from  horytr import TimeFrame, Position
+from  horytr.feed import DataBase
+from  horytr.metabase import MetaParams
+from  horytr.utils.py3 import (MAXINT, range, queue, string_types,
                                   with_metaclass)
-from backtrader.utils import AutoDict
+from  horytr.utils import AutoDict
 
 
 class _SymInfo(object):

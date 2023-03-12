@@ -21,10 +21,10 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-from backtrader.utils.py3 import filter, string_types, integer_types
+from  horytr.utils.py3 import filter, string_types, integer_types
 
-from backtrader import date2num
-import backtrader.feed as feed
+from  horytr import date2num
+import horytr.feed as feed
 
 
 class PandasDirectData(feed.DataBase):

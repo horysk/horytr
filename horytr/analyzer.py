@@ -26,9 +26,9 @@ from collections import OrderedDict
 import datetime
 import pprint as pp
 
-import backtrader as bt
-from backtrader import TimeFrame
-from backtrader.utils.py3 import MAXINT, with_metaclass
+import horytr as bt
+from  horytr import TimeFrame
+from  horytr.utils.py3 import MAXINT, with_metaclass
 
 
 class MetaAnalyzer(bt.MetaParams):

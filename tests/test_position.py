@@ -23,8 +23,8 @@ from __future__ import (absolute_import, division, print_function,
 
 import testcommon
 
-import backtrader as bt
-from backtrader import position
+import horytr as bt
+from  horytr import position
 
 
 def test_run(main=False):

@@ -23,8 +23,8 @@ from __future__ import (absolute_import, division, print_function,
 
 import argparse
 
-import backtrader as bt
-import backtrader.feeds as btfeeds
+import horytr as bt
+import horytr.feeds as btfeeds
 
 import pandas
 

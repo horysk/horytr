@@ -25,10 +25,10 @@ import argparse
 import datetime
 
 # The above could be sent to an independent module
-import backtrader as bt
-import backtrader.feeds as btfeeds
-import backtrader.indicators as btind
-from backtrader.analyzers import (SQN, AnnualReturn, TimeReturn, SharpeRatio,
+import horytr as bt
+import horytr.feeds as btfeeds
+import horytr.indicators as btind
+from  horytr.analyzers import (SQN, AnnualReturn, TimeReturn, SharpeRatio,
                                   TradeAnalyzer)
 
 

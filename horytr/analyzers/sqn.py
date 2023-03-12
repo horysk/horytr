@@ -23,9 +23,9 @@ from __future__ import (absolute_import, division, print_function,
 
 import math
 
-from backtrader import Analyzer
-from backtrader.mathsupport import average, standarddev
-from backtrader.utils import AutoOrderedDict
+from  horytr import Analyzer
+from  horytr.mathsupport import average, standarddev
+from  horytr.utils import AutoOrderedDict
 
 
 class SQN(Analyzer):

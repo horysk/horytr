@@ -23,8 +23,8 @@ from __future__ import (absolute_import, division, print_function,
 
 import math
 
-import backtrader as bt
-from backtrader import TimeFrameAnalyzerBase
+import horytr as bt
+from  horytr import TimeFrameAnalyzerBase
 from . import Returns
 from ..mathsupport import standarddev
 

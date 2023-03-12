@@ -26,9 +26,9 @@ import datetime
 import itertools
 
 # The above could be sent to an independent module
-import backtrader as bt
-import backtrader.feeds as btfeeds
-import backtrader.indicators as btind
+import horytr as bt
+import horytr.feeds as btfeeds
+import horytr.indicators as btind
 
 import mtradeobserver
 

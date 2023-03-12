@@ -24,7 +24,7 @@ from __future__ import (absolute_import, division, print_function,
 
 from datetime import datetime
 
-import backtrader as bt
+import horytr as bt
 
 
 class MetaRollOver(bt.DataBase.__class__):

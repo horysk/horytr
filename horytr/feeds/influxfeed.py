@@ -21,8 +21,8 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-import backtrader as bt
-import backtrader.feed as feed
+import horytr as bt
+import horytr.feed as feed
 from ..utils import date2num
 import datetime as dt
 

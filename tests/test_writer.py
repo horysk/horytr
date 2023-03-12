@@ -25,8 +25,8 @@ import time
 
 import testcommon
 
-import backtrader as bt
-import backtrader.indicators as btind
+import horytr as bt
+import horytr.indicators as btind
 
 
 chkdatas = 1

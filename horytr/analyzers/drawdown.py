@@ -21,8 +21,8 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
-import backtrader as bt
-from backtrader.utils import AutoOrderedDict
+import horytr as bt
+from  horytr.utils import AutoOrderedDict
 
 
 __all__ = ['DrawDown', 'TimeDrawDown']

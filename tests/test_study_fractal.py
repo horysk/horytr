@@ -23,7 +23,7 @@ from __future__ import (absolute_import, division, print_function,
 
 import testcommon
 
-import backtrader as bt
+import horytr as bt
 
 
 chkdatas = 1

@@ -26,8 +26,8 @@ from __future__ import (absolute_import, division, print_function,
 
 import sys
 
-import backtrader as bt
-from backtrader.utils.py3 import with_metaclass
+import horytr as bt
+from  horytr.utils.py3 import with_metaclass
 
 
 try:

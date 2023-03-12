@@ -41,7 +41,7 @@ different ways. Use the docs (and examples) Luke!
 ::
 
   from datetime import datetime
-  import backtrader as bt
+  import horytr as bt
 
   class SmaCross(bt.SignalStrategy):
       def __init__(self):

@@ -29,7 +29,7 @@ import random
 import string
 import sys
 
-import backtrader as bt
+import horytr as bt
 
 
 DATAFORMATS = dict(
@@ -74,7 +74,7 @@ def btrun(pargs=''):
     args = parse_args(pargs)
 
     if args.flush:
-        import backtrader.utils.flushfile
+        import horytr.utils.flushfile
 
     stdstats = not args.nostdstats
 

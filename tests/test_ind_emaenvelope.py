@@ -23,8 +23,8 @@ from __future__ import (absolute_import, division, print_function,
 
 import testcommon
 
-import backtrader as bt
-import backtrader.indicators as btind
+import horytr as bt
+import horytr.indicators as btind
 
 chkdatas = 1
 chkvals = [

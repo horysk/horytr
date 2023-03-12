@@ -25,8 +25,8 @@ from datetime import datetime
 from struct import unpack
 import os.path
 
-import backtrader as bt
-from backtrader import date2num  # avoid dict lookups
+import horytr as bt
+from  horytr import date2num  # avoid dict lookups
 
 
 class MetaVChartFile(bt.DataBase.__class__):
