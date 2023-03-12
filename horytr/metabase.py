@@ -25,7 +25,7 @@ from collections import OrderedDict
 import itertools
 import sys
 
-import backtrader as bt
+import horytr as bt
 from .utils.py3 import zip, string_types, with_metaclass
 
 
